@@ -6,8 +6,9 @@
 // @include     http://fritz.box:81/*
 // @encoding    utf-8
 // @grant       none
-// @run-at      document-start
-// @version     1.0
+// @run-at      document-idle
+// @version     1.1.0
 // ==/UserScript==
 
-document.getElementById("world").style.maxWidth="900px";
+try { document.getElementById("world").style.maxWidth="900px"; }
+catch(err) { console.log(err.message); }
