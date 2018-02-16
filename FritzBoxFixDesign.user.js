@@ -8,6 +8,7 @@
 // @encoding    utf-8
 // @grant       none
 // @run-at      document-idle
+// @license     MIT
 // @version     1.1.1
 // ==/UserScript==
 
